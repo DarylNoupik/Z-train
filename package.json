@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js -p test_runner --tags @login & node ./htmlReportGenerator.js"
+    "test": "npx cucumber-js -p test_runner --tags @login & node ./htmlReportGenerator.js",
+    "test:allure": "cucumber-js -p test_runner --tags @login  --format @cucumber/pretty-formatter --format message:./allure-results/results.ndjson && allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +17,9 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^10.8.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
     "@types/cucumber-html-reporter": "^5.0.1",
+    "allure-commandline": "^2.29.0",
     "cucumber-html-reporter": "^7.1.1",
     "dotenv": "^16.4.5",
     "ts-node": "^10.9.2",
