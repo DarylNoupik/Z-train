@@ -1,0 +1,24 @@
+{
+  "name": "z-train",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p test_runner --tags @login & node ./htmlReportGenerator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.8"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@types/cucumber-html-reporter": "^5.0.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "connexion;connexion-réussie",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Connexion réussie",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 611775100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Je suis sur l'onglet connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18864854399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Je saisis des identifiants valides",
+            "match": {
+              "location": "steps\\login.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2070755297
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Je clique sur connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5046588499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Je devrais être redirigé vers HomePage en tant utilisateur connecte apres la connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2028185497
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 19703499,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('#style_avatar_wrapper__pEGIQ')\nExpected string: \u001b[32m\"darkin1@yopmail.com\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n  \u001b[2m- locator._expect with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#style_avatar_wrapper__pEGIQ')\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\node_modules\\playwright\\lib\\matchers\\expect.js:177:37)\n    at Assert.assertTextContains (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\utils\\assert.ts:24:27)\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\steps\\login.steps.ts:40:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "connexion;connexion-échouée-avec-des-identifiants-invalides",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Connexion échouée avec des identifiants invalides",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 529806000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "Je suis sur l'onglet connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9916972399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Je saisis des identifiants invalides",
+            "match": {
+              "location": "steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2059839299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Je clique sur connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5076494000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Un message d'erreur devrait s'afficher sur l'onglet connexion",
+            "match": {
+              "location": "steps\\login.steps.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015758098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 219326899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "connexion",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Connexion",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature"
+  }
+]
