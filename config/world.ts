@@ -16,7 +16,7 @@ setDefaultTimeout(60000);
 
 Before(async () => {
   try {
-    browser = await chromium.launch({ headless: false });
+    browser = await chromium.launch({ headless: true });
     const context = await browser.newContext();
     page = await context.newPage();
   } catch (error) {
