@@ -21,7 +21,7 @@ export default class Assert {
     expect(pageURL).toContain(title);
   }
   async assertTextContains(locator: Locator, text: string) {
-    await expect(locator).toContainText(text);
+    await expect(locator).toContainText(text, { timeout: 10000 });
   }
   async haveErrorMsg(locator: Locator, msg: string) {
     await expect(locator).toHaveText(msg);

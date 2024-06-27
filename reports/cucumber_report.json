@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 860021100
+              "duration": 488355199
             }
           },
           {
@@ -26,9 +26,8 @@
               "location": "steps\\login.steps.ts:17"
             },
             "result": {
-              "status": "failed",
-              "duration": 32019368698,
-              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- navigating to \"https://ztrain-web.vercel.app/\", waiting until \"load\"\u001b[22m\n\n    at HomePage.navigate (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\pages\\BasePage.ts:11:21)\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\steps\\login.steps.ts:21:18)"
+              "status": "passed",
+              "duration": 26419335600
             }
           },
           {
@@ -40,8 +39,8 @@
               "location": "steps\\login.steps.ts:26"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2060616200
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "steps\\login.steps.ts:31"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5071452399
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "steps\\login.steps.ts:36"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2031560198
             }
           },
           {
@@ -75,8 +74,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 30012808500,
-              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\config\\world.ts:32:18)"
+              "duration": 20767999,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('#style_avatar_wrapper__pEGIQ')\nExpected string: \u001b[32m\"darkin1@yopmail.com\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n  \u001b[2m- locator._expect with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#style_avatar_wrapper__pEGIQ')\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\u001b[2m  -   locator resolved to <div id=\"style_avatar_wrapper__pEGIQ\">…</div>\u001b[22m\n\u001b[2m  -   unexpected value \"\"\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\node_modules\\playwright\\lib\\matchers\\expect.js:177:37)\n    at Assert.assertTextContains (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\utils\\assert.ts:24:27)\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\steps\\login.steps.ts:40:12)"
             }
           }
         ],
@@ -100,7 +99,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 404769800
+              "duration": 660765799
             }
           },
           {
@@ -113,7 +112,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10041603599
+              "duration": 27358197300
             }
           },
           {
@@ -126,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2054108799
+              "duration": 2051386299
             }
           },
           {
@@ -139,7 +138,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5064910497
+              "duration": 5065036099
             }
           },
           {
@@ -152,7 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2028411897
+              "duration": 2030798999
             }
           },
           {
@@ -160,7 +159,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 46287699
+              "duration": 317783899
             }
           }
         ],
