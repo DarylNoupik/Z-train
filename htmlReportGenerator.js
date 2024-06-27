@@ -19,8 +19,8 @@ var currentDate =
 var options = {
   brandTitle: "demo test scenarios",
   theme: "bootstrap",
-  jsonFile: "Reports/cucumber_report.json",
-  output: "Reports/cucumber_report_" + currentDate + ".html",
+  jsonFile: "./reports/cucumber_report.json",
+  output: "./reports/cucumber_report_" + currentDate + ".html",
   screenshotsDirectory: "./Screenshots/",
   storeScreenshots: true,
   reportSuiteAsScenarios: true,
