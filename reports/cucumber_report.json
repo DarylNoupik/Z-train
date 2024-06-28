@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 860021100
+              "duration": 1639668199
             }
           },
           {
@@ -27,8 +27,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 32019368698,
-              "error_message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- navigating to \"https://ztrain-web.vercel.app/\", waiting until \"load\"\u001b[22m\n\n    at HomePage.navigate (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\pages\\BasePage.ts:11:21)\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\steps\\login.steps.ts:21:18)"
+              "duration": 56658011598,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('#style_avatar_wrapper__pEGIQ')\u001b[22m\n\n    at HomePage.clickOnUserModal (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\pages\\HomePage.ts:17:32)\n    at AllureCucumberWorld.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\steps\\login.steps.ts:22:18)"
             }
           },
           {
@@ -75,8 +75,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 30012808500,
-              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\config\\world.ts:32:18)"
+              "duration": 30012663399,
+              "error_message": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\n    at AllureCucumberWorld.<anonymous> (C:\\Users\\COMPUTER CARE\\OneDrive\\Documents\\Zenity\\Z-train\\config\\world.ts:32:18)"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 404769800
+              "duration": 1016910800
             }
           },
           {
@@ -113,7 +113,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10041603599
+              "duration": 17946462499
             }
           },
           {
@@ -126,7 +126,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2054108799
+              "duration": 2136758398
             }
           },
           {
@@ -139,7 +139,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5064910497
+              "duration": 5128017299
             }
           },
           {
@@ -152,7 +152,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2028411897
+              "duration": 2067863798
             }
           },
           {
@@ -160,7 +160,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 46287699
+              "duration": 467366699
             }
           }
         ],

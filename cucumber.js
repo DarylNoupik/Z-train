@@ -6,8 +6,7 @@ let options = [
   "--format progress", //load custom formatter
   "--format json:./reports/cucumber_report.json",
   "--format @cucumber/pretty-formatter", // Format pour l'intégration avec Allure
-  "--format message:./allure-results/results.ndjson", // Format pour Allure
-  "--format ./reports/reporter.js",
+  "--format ./reporter.js",
 ].join(" ");
 
 let run_features = [
